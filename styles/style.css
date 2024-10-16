@@ -386,6 +386,7 @@ footer {
 footer .footer-logo img {
     max-height: 50px;
     margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 @media(min-width: 1280px) {
