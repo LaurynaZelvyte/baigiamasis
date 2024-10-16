@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baigiamasis darbas</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="top-header">
+        <a href="#">
+            <img src="img/logo1-01.svg" alt="Mystic May logo">
+        </a>
+
+        <ul class="top-header_navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <svg class="burger-btn" width="50" height="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"
+            stroke="#eee" stroke-width=".6" fill="rgba(0,0,0,0)" stroke-linecap="round" style="cursor: pointer">
+            <path d="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7">
+                <animate dur="0.2s" attributeName="d"
+                    values="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7;M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7" fill="freeze"
+                    begin="start.begin" />
+                <animate dur="0.2s" attributeName="d"
+                    values="M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7;M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7" fill="freeze"
+                    begin="reverse.begin" />
+            </path>
+            <rect width="10" height="10" stroke="none">
+                <animate dur="2s" id="reverse" attributeName="width" begin="click" />
+            </rect>
+            <rect width="10" height="10" stroke="none">
+                <animate dur="0.001s" id="start" attributeName="width" values="10;0" fill="freeze" begin="click" />
+                <animate dur="0.001s" attributeName="width" values="0;10" fill="freeze" begin="reverse.begin" />
+            </rect>
+        </svg>
+    </header>
+
+    <main>
+        <section class="main-section">
+            <picture class="main-section_picture">
+                <img src="img/elizabeth1.png" alt="Elizabeth Gillies">
+            </picture>
+            <div class="main-section_content">
+                <h4 id="main-section-subject">Not your average mystic</h4>
+                <h1 id="main-section_title">Manifest with me</h1>
+                <div class="main-section_content-wrapper">
+                    <p>Are you ready to reprogram your subconscious mind, banish limiting beliefs, bust those money
+                        blocks and level up in all areas of your life? If so... I'm your girl.
+                    </p>
+                    <a id="read-more-btn" class="primary-btn" href="#">Get started</a>
+                </div>
+            </div>
+        </section>
+        <section class="text-border">
+            <div class="text-border_contenct">
+                <p> ★ Escape the matrix ★ Uplevel your life ★ Soul glow up ★ </p>
+            </div>
+        </section>
+        <section class="get-ready">
+            <div class="get-ready-sec-concent">
+                <h2 id="get-ready-sec_title">
+                    Are you ready to get mystic and make magic?
+                </h2>
+                <p id="get-ready-sec_text"> Opal september seasage in red rubies matcha riding low-key. Circle
+                    herbalism, magic dreams in long grass and beautiful mugs, incense and essential oils with poetry.
+                    How does it feel? Magic music and fairy blue up love and wishing well. If this is poetry, tame the
+                    dragon. Surely in space and time colour of fairy wings. </p>
+            </div>
+        </section>
+
+        <section class="services-section">
+            <h2 id="work-with-me">Work with me</h2>
+            <div class="articles">
+            <article class="services-section_article"> 
+                <img src="img/elizabeth2.jpg" alt="Elizabeth Gillies">
+                <div>
+                    <h3>Construction</h3>
+                    <p>Designing and Building The Most Beautiful Custom Homes.</p>
+                </div>
+            
+
+            <article class="services-section_article">
+                <img src="img/elizabeth3.jpg" alt="Elizabeth Gillies">
+                <div>
+                    <h3>Project Development</h3>
+                    <p>Designing and Building The Most Beautiful Custom Homes.</p>
+                </div>
+            </article>
+        </div>
+        </section>
+
+        <!--cia id yra meniu juostos aherf-->
+        <section id="animation-section" class="animation-section">
+            <div class="box"></div>
+        </section>
+    </main>
+
+
+
+
+    <!-- <h1>
+        Building Your Future Accommodation
+    </h1>
+    <p>
+        We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.
+    </p> -->
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
