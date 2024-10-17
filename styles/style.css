@@ -371,7 +371,7 @@
 .book-call h2 {
     margin: 70px 70px 10px 70px;
     color: var(--second);
-    font-size: 60px;
+    font-size: 40px;
 }
 
 
@@ -403,5 +403,15 @@ footer .footer-logo img {
 
 @media(min-width: 1280px) {
  
-
+    .book-call {
+        padding: 50px 50px 60px 50px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .book-call h2 {
+        margin: 70px 70px 10px 70px;
+        color: var(--second);
+        font-size: 60px;
+    }
 }
